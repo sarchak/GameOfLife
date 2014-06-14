@@ -14,6 +14,18 @@
 		5610044E19496FFA00F5F309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5610044C19496FFA00F5F309 /* Main.storyboard */; };
 		5610045019496FFA00F5F309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5610044F19496FFA00F5F309 /* Images.xcassets */; };
 		5610045C19496FFA00F5F309 /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610045B19496FFA00F5F309 /* GameOfLifeTests.swift */; };
+		561004741949702700F5F309 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004671949702700F5F309 /* balloon.png */; };
+		561004751949702700F5F309 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004681949702700F5F309 /* bubble.png */; };
+		561004761949702700F5F309 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004691949702700F5F309 /* grid.png */; };
+		561004771949702700F5F309 /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = 5610046A1949702700F5F309 /* microscope.png */; };
+		561004781949702700F5F309 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5610046C1949702700F5F309 /* background.png */; };
+		561004791949702700F5F309 /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5610046E1949702700F5F309 /* button-pressed.png */; };
+		5610047A1949702700F5F309 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5610046F1949702700F5F309 /* button.png */; };
+		5610047B1949702700F5F309 /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004701949702700F5F309 /* pause-pressed.png */; };
+		5610047C1949702700F5F309 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004711949702700F5F309 /* pause.png */; };
+		5610047D1949702700F5F309 /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004721949702700F5F309 /* play-pressed.png */; };
+		5610047E1949702700F5F309 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 561004731949702700F5F309 /* play.png */; };
+		56526959194ACCF4007A05CC /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56526958194ACCF4007A05CC /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +43,25 @@
 		5610044319496FFA00F5F309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5610044419496FFA00F5F309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5610044619496FFA00F5F309 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		5610044819496FFA00F5F309 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5610044819496FFA00F5F309 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5610044A19496FFA00F5F309 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5610044D19496FFA00F5F309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5610044F19496FFA00F5F309 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5610045519496FFA00F5F309 /* GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5610045A19496FFA00F5F309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5610045B19496FFA00F5F309 /* GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTests.swift; sourceTree = "<group>"; };
+		561004671949702700F5F309 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		561004681949702700F5F309 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		561004691949702700F5F309 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		5610046A1949702700F5F309 /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = "<group>"; };
+		5610046C1949702700F5F309 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5610046E1949702700F5F309 /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		5610046F1949702700F5F309 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		561004701949702700F5F309 /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = "<group>"; };
+		561004711949702700F5F309 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		561004721949702700F5F309 /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
+		561004731949702700F5F309 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		56526958194ACCF4007A05CC /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = GameOfLife/Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +85,11 @@
 		5610043619496FFA00F5F309 = {
 			isa = PBXGroup;
 			children = (
+				56526958194ACCF4007A05CC /* Tile.swift */,
 				5610044119496FFA00F5F309 /* GameOfLife */,
 				5610045819496FFA00F5F309 /* GameOfLifeTests */,
 				5610044019496FFA00F5F309 /* Products */,
+				561004651949702700F5F309 /* GameOfLifeAssets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +139,49 @@
 				5610045A19496FFA00F5F309 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561004651949702700F5F309 /* GameOfLifeAssets */ = {
+			isa = PBXGroup;
+			children = (
+				561004661949702700F5F309 /* Assets */,
+				5610046B1949702700F5F309 /* BackgroundImage */,
+				5610046D1949702700F5F309 /* Buttons */,
+			);
+			name = GameOfLifeAssets;
+			path = ../../../Downloads/GameOfLifeAssets;
+			sourceTree = "<group>";
+		};
+		561004661949702700F5F309 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				561004671949702700F5F309 /* balloon.png */,
+				561004681949702700F5F309 /* bubble.png */,
+				561004691949702700F5F309 /* grid.png */,
+				5610046A1949702700F5F309 /* microscope.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5610046B1949702700F5F309 /* BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				5610046C1949702700F5F309 /* background.png */,
+			);
+			path = BackgroundImage;
+			sourceTree = "<group>";
+		};
+		5610046D1949702700F5F309 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5610046E1949702700F5F309 /* button-pressed.png */,
+				5610046F1949702700F5F309 /* button.png */,
+				561004701949702700F5F309 /* pause-pressed.png */,
+				561004711949702700F5F309 /* pause.png */,
+				561004721949702700F5F309 /* play-pressed.png */,
+				561004731949702700F5F309 /* play.png */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +265,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5610045019496FFA00F5F309 /* Images.xcassets in Resources */,
+				5610047B1949702700F5F309 /* pause-pressed.png in Resources */,
+				5610047C1949702700F5F309 /* pause.png in Resources */,
+				5610047A1949702700F5F309 /* button.png in Resources */,
+				5610047D1949702700F5F309 /* play-pressed.png in Resources */,
+				561004781949702700F5F309 /* background.png in Resources */,
+				561004741949702700F5F309 /* balloon.png in Resources */,
+				5610047E1949702700F5F309 /* play.png in Resources */,
+				561004771949702700F5F309 /* microscope.png in Resources */,
+				561004751949702700F5F309 /* bubble.png in Resources */,
 				5610044719496FFA00F5F309 /* GameScene.sks in Resources */,
 				5610044E19496FFA00F5F309 /* Main.storyboard in Resources */,
+				561004791949702700F5F309 /* button-pressed.png in Resources */,
+				561004761949702700F5F309 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +298,7 @@
 				5610044919496FFA00F5F309 /* GameScene.swift in Sources */,
 				5610044B19496FFA00F5F309 /* GameViewController.swift in Sources */,
 				5610044519496FFA00F5F309 /* AppDelegate.swift in Sources */,
+				56526959194ACCF4007A05CC /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +486,7 @@
 				5610046119496FFA00F5F309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5610046219496FFA00F5F309 /* Build configuration list for PBXNativeTarget "GameOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +495,7 @@
 				5610046419496FFA00F5F309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
